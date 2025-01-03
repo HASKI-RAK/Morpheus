@@ -1,0 +1,5 @@
+MODELS = "Markov Chain"
+ACT_REF_DEFAULT = "Active"
+SEN_INT_DEFAULT = "Sensory"
+SEQ_GLO_DEFAULT = "Sequential"
+VIS_VER_DEFAULT = "Visual"

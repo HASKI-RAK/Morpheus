@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<BIF VERSION="0.3">
+  <NETWORK>
+    <NAME>UNTITLED</NAME>
+    <VARIABLE TYPE="nature">
+      <NAME>AR</NAME>
+      <OUTCOME>Active</OUTCOME>
+      <OUTCOME>Reflective</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>SG</NAME>
+      <OUTCOME>Global</OUTCOME>
+      <OUTCOME>Sequential</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>SI</NAME>
+      <OUTCOME>Intuitive</OUTCOME>
+      <OUTCOME>Sensory</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>VV</NAME>
+      <OUTCOME>Verbal</OUTCOME>
+      <OUTCOME>Visual</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>bfia</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>bfic</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <OUTCOME>5</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>bfie</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>bfin</NAME>
+      <OUTCOME>1</OUTCOME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>bfio</NAME>
+      <OUTCOME>1</OUTCOME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <OUTCOME>5</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>cs</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>mcs</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY />
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>smer</NAME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <VARIABLE TYPE="nature">
+      <NAME>smir</NAME>
+      <OUTCOME>2</OUTCOME>
+      <OUTCOME>3</OUTCOME>
+      <OUTCOME>4</OUTCOME>
+      <PROPERTY>weight = None</PROPERTY>
+    </VARIABLE>
+    <DEFINITION>
+      <FOR>AR</FOR>
+      <TABLE>0.625 0.375 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>SG</FOR>
+      <TABLE>0.625 0.375 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>SI</FOR>
+      <TABLE>0.125 0.875 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>VV</FOR>
+      <TABLE>0.125 0.875 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>bfia</FOR>
+      <TABLE>0.25 0.25 0.5 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>bfic</FOR>
+      <GIVEN>AR</GIVEN>
+      <TABLE>0.0 0.4 0.4 0.2 0.6666666666666666 0.0 0.16666666666666666 0.16666666666666666 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>bfie</FOR>
+      <TABLE>0.1875 0.125 0.6875 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>bfin</FOR>
+      <TABLE>0.0625 0.1875 0.125 0.625 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>bfio</FOR>
+      <TABLE>0.0625 0.125 0.125 0.4375 0.25 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>cs</FOR>
+      <TABLE>0.125 0.4375 0.4375 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>mcs</FOR>
+      <GIVEN>bfic</GIVEN>
+      <TABLE>0.0 1.0 0.0 0.5 0.5 0.0 0.0 0.0 1.0 0.6666666666666666 0.3333333333333333 0.0 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>smer</FOR>
+      <TABLE>0.6875 0.3125 </TABLE>
+    </DEFINITION>
+    <DEFINITION>
+      <FOR>smir</FOR>
+      <TABLE>0.25 0.6875 0.0625 </TABLE>
+    </DEFINITION>
+  </NETWORK>
+</BIF>
